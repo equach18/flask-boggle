@@ -1,0 +1,30 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+}
+
+#boggle-board, .board{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin-top:1em;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 8px;
+    font-size:larger;
+}
+
+#stats p{
+    margin-top:2px;
+    margin-bottom:2px;
+}
